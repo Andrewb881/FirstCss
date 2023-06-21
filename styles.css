@@ -1,0 +1,12 @@
+div {
+    background-color: red;
+    color: white;
+    font-size: "32px";
+    text-align: center;
+    font-weight: bold;
+  }
+  /* This is the text that will be displayed. */
+  div::after {
+      content: "style me via the external method";
+    }
+  
